@@ -5,3 +5,33 @@
     list-style: none;
 
 }
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+
+}
+.solar_system_container{
+    width: 40em;
+    height: 40em;
+    
+    position: relative;
+}
+
+.sun{
+    width: 10em;
+    height: 10em;
+    background-color: yellow;
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 15em;
+    left: 15em;
+
+    box-shadow: 0 0 3em white;
+}
+
