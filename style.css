@@ -40,17 +40,13 @@ body{
     box-shadow: 0 0 3em white;
 }
 
-.earth , .moon{
+.earth,.moon{
 
     position: absolute;
     border-style: solid;
     border-radius: 50%;
     border-width: 0.1em  0.1em 0 0;
     
-
-    /* 3 values present: left = right
-2 values present: left = right & bottom = top
-1 value present:  left = right = bottom = top */
     border-color: white transparent transparent;
 }
 
