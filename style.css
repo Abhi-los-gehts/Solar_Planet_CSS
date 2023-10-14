@@ -17,7 +17,7 @@ body{
 .solar_system_container{
     width: 40em;
     height: 40em;
-    
+
     position: relative;
 }
 
@@ -35,3 +35,28 @@ body{
     box-shadow: 0 0 3em white;
 }
 
+.earth , .moon {
+
+    position: absolute;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 0.1em  0.1em 0 0;
+    
+    border-color: white transparent transparent;
+}
+
+.earth{
+    height: 30em;
+    width: 30em;
+
+    top: 5em;
+    left: 5em;
+}
+
+.moon{
+    height: 8em;
+    width: 8em;
+
+    top: 0;
+    left: 0;
+}
