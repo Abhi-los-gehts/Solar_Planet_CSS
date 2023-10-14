@@ -11,12 +11,13 @@ body{
     width: 100vw;
     height: 100vh;
 
-    background-color: black;
+    /* background-color: black; */
 
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-image: url('https://images.unsplash.com/photo-1622793139910-e261be0b30a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnMlMjBpbiUyMHRoZSUyMHNreXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
 
 }
 .solar_system_container{
@@ -29,8 +30,8 @@ body{
 .sun{
     width: 10em;
     height: 10em;
-    background-color: yellow;
-
+    background-image: linear-gradient(orange, red, orange);
+    
     border-radius: 50%;
 
     position: absolute;
@@ -58,6 +59,7 @@ body{
     left: 5em;
 
     animation:orbit 36.5s linear infinite ;
+    
 }
 
 .moon{
@@ -83,7 +85,7 @@ body{
 
     top: 2.8em;
     right: 2.8em;
-    background-image: linear-gradient(aqua, blue);
+    background-image: linear-gradient(aqua, blue,green);
 
 }
 
@@ -102,3 +104,5 @@ body{
  }
     
 }
+
+.stars  
