@@ -47,6 +47,10 @@ body{
     border-radius: 50%;
     border-width: 0.1em  0.1em 0 0;
     
+
+    /* 3 values present: left = right
+2 values present: left = right & bottom = top
+1 value present:  left = right = bottom = top */
     border-color: white transparent transparent;
 }
 
@@ -64,6 +68,7 @@ body{
 
     top: 0;
     left: 0;
+
 }
 
 .earth::before ,.moon::before{
@@ -73,8 +78,8 @@ body{
 }
 
 .earth::before {
-    height: 8em;
-    width: 8em;
+    height: 3em;
+    width: 3em;
 
     top: 2.8em;
     right:2.8em;
@@ -89,4 +94,11 @@ body{
     top: 0.8em;
     right:1.2em;
     background-color: silver
+}
+
+@keyframes orbit {
+ to{
+    transform: rotate(360deg);
+ }
+    
 }
