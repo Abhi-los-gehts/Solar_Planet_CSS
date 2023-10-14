@@ -11,12 +11,11 @@ body{
     width: 100vw;
     height: 100vh;
 
-    /* background-color: black; */
-
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
     background-image: url('https://images.unsplash.com/photo-1622793139910-e261be0b30a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnMlMjBpbiUyMHRoZSUyMHNreXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
 
 }
